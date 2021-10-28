@@ -1,0 +1,29 @@
+.header-wrapper {
+  padding: 20px 0px;
+
+  .header-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+
+    .login-btn {
+      text-align: right;
+
+      button {
+        background: #2d2d2d;
+        color: #ffffff;
+        font-weight: 600;
+        border: none;
+        border-radius: 10px;
+        padding: 5px 20px;
+      }
+    }
+    .main-menu {
+      .nav-link {
+        color: #2d2d2d;
+        font-weight: 500;
+        margin-right: 25px;
+      }
+    }
+  }
+}

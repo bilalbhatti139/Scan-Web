@@ -1,0 +1,25 @@
+.scan-the-code-container {
+  display: flex;
+
+  .scan-the-code-text {
+    padding-top: 100px;
+    h1 {
+      font-size: 70px;
+      margin: 0;
+      color: #2f2f2f;
+      padding-bottom: 40px;
+      font-weight: 600;
+    }
+    p {
+      color: #2f2f2f;
+      font-size: 20px;
+      margin: 0;
+      font-weight: 400;
+      padding-bottom: 40px;
+    }
+
+    .link-to-app {
+      padding-top: 30px;
+    }
+  }
+}

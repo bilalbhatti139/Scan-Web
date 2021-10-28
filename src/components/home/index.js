@@ -3,10 +3,17 @@ import React, { Fragment } from "react";
 // import styles
 import "./style.scss";
 
+// import components
+import Header from "../header";
+import ScanTheMode from "../scanthemode";
+
 const Home = () => {
   return (
     <Fragment>
-  <h1>Home</h1>
+      <div className="home-header-wrapper">
+        <Header />
+        <ScanTheMode />
+      </div>
     </Fragment>
   );
 };

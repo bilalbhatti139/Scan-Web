@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 // import components
 import Footer from "../components/footer";
-import Header from "../components/header";
 
 // import pages
 import Home from "../pages/Home";
@@ -12,7 +11,6 @@ class MainRouter extends React.Component {
     return (
       <>
         <Router>
-          <Header />
           <Route exact path="/" component={Home} />
           <Footer />
         </Router>
