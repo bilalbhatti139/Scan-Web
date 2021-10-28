@@ -1,9 +1,15 @@
-import './App.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-function App() {
+// import components
+import MainRouter from "./routes";
+
+const App = () => {
   return (
-    <h1>Scan Website</h1>
+    <div className="App">
+      <MainRouter />
+    </div>
   );
-}
+};
 
 export default App;
