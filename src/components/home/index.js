@@ -6,6 +6,10 @@ import "./style.scss";
 // import components
 import Header from "../header";
 import ScanTheMode from "../scanthemode";
+import Benefits from "../benefits";
+
+// import data
+import { benefits } from "../../utils/constants";
 
 const Home = () => {
   return (
@@ -14,6 +18,7 @@ const Home = () => {
         <Header />
         <ScanTheMode />
       </div>
+      <Benefits benefits={benefits} />
     </Fragment>
   );
 };
