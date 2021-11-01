@@ -7,11 +7,17 @@ import Container from "react-bootstrap/Container";
 // import style
 import "./style.scss";
 
+// import images
+import text from "../../assets/benefits-text.png";
+
 const Benefits = ({ benefits }) => {
   return (
     <Fragment>
       <div className="benefits-wrapper">
         <Container>
+          <div className="benefits-wrapper__title">
+            <img src={text} alt="text-logo" className="img-fluid" />
+          </div>
           <div className="benefits-container">
             {benefits.map((item) => {
               return (
