@@ -1,0 +1,76 @@
+.contact-us-wrapper {
+  &__title {
+    text-align: center;
+    padding: 50px 0px;
+  }
+
+  &__container {
+    background: url("../../assets//contact-us-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &__contact-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+  }
+
+  &__form-box {
+    background: linear-gradient(
+      118.44deg,
+      #717171 -4.68%,
+      rgba(67, 67, 67, 0.59) 77.64%
+    );
+    box-shadow: inset 2px 2px 6px rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 50px;
+    border: 1px solid #d7d7d7;
+  }
+
+  &__input-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+  }
+
+  &__input {
+    color: #3d3d3d;
+    background: none;
+    border: none;
+  }
+
+  &__input-grey-bg {
+    background: #a8a8a8;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  &__label {
+    color: #ffffff;
+    display: block;
+    font-weight: 600;
+  }
+
+  &__icon {
+    padding-right: 10px;
+    border-right: 1px solid #ffffff;
+    margin-right: 10px;
+  }
+
+  &__send-btn {
+    background: #ffffff;
+    color: #3d3d3d;
+    padding: 15px 75px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}

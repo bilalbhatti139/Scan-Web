@@ -8,6 +8,7 @@ import Header from "../header";
 import ScanTheMode from "../scanthemode";
 import Benefits from "../benefits";
 import Features from "../features";
+import Contact from "../contact";
 
 // import data
 import { benefits } from "../../utils/constants";
@@ -21,6 +22,7 @@ const Home = () => {
       </div>
       <Benefits benefits={benefits} />
       <Features />
+      <Contact />
     </Fragment>
   );
 };
