@@ -7,6 +7,7 @@ import "./style.scss";
 import Header from "../header";
 import ScanTheMode from "../scanthemode";
 import Benefits from "../benefits";
+import Features from "../features";
 
 // import data
 import { benefits } from "../../utils/constants";
@@ -19,6 +20,7 @@ const Home = () => {
         <ScanTheMode />
       </div>
       <Benefits benefits={benefits} />
+      <Features />
     </Fragment>
   );
 };
