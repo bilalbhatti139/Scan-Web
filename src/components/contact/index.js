@@ -97,7 +97,9 @@ const Contact = () => {
                       </div>
                     </div>
                   </div>
-                  <button className="contact-us-wrapper__send-btn">Send</button>
+                  <div className="contact-us-wrapper__send-btn">
+                    <button className="">Send</button>
+                  </div>
                 </div>
               </div>
             </div>

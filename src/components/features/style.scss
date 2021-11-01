@@ -8,12 +8,19 @@
     background: #edf7fe;
     padding-bottom: 80px;
     margin-top: 35px;
+    @media (max-width: 767px) {
+      padding-top: 80px;
+    }
   }
 
   &__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 50px;
+
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &__content-box {
@@ -26,6 +33,12 @@
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 50px;
+      position: inherit;
+      padding-top: 50px;
+    }
   }
 
   &__box-title {
@@ -50,6 +63,10 @@
     right: 0;
     margin: auto;
     top: -60px;
+
+    @media (max-width: 767px) {
+      position: inherit;
+    }
   }
 
   &__underline__one {

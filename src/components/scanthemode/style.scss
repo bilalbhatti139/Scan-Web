@@ -1,6 +1,11 @@
 .scan-the-code-container {
   display: flex;
 
+  @media (max-width: 767px) {
+    flex-direction: column;
+    text-align: center;
+  }
+
   .scan-the-code-text {
     padding-top: 100px;
     h1 {
