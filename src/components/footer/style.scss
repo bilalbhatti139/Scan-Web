@@ -1,11 +1,16 @@
 .footer-main {
   background: url("../../assets//footer-bg.png");
   padding: 50px 0px;
+  background-size: cover;
 
   &__footer-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 50px;
+
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &__social-icons {
@@ -36,5 +41,22 @@
         color: #131313;
       }
     }
+  }
+
+  &__address-content {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 10px;
+
+    img {
+      padding-right: 15px;
+    }
+  }
+
+  &__mini-footer {
+    background: #151515;
+    padding: 30px;
+    text-align: center;
+    color: #ffffff;
   }
 }

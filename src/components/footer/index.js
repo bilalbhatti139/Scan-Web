@@ -12,6 +12,9 @@ import facebook from "../../assets/facebook.png";
 import youtube from "../../assets/youtube.png";
 import twitter from "../../assets/twitter.png";
 import instagram from "../../assets/instagram.png";
+import location from "../../assets/location.png";
+import call from "../../assets/call.png";
+import email from "../../assets/message-footer.png";
 
 const Footer = () => {
   return (
@@ -55,10 +58,32 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="footer-main__col-3"></div>
+            <div className="footer-main__col-3">
+              <div className="footer-main__address">
+                <div className="footer-main__address-content">
+                  <img
+                    src={location}
+                    alt="location-icon"
+                    className="img-fluid"
+                  />
+                  <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+                </div>
+                <div className="footer-main__address-content">
+                  <img src={call} alt="location-icon" className="img-fluid" />
+                  <p>+91 9988776655 </p>
+                </div>
+                <div className="footer-main__address-content">
+                  <img src={email} alt="location-icon" className="img-fluid" />
+                  <p>debra.holt@example.com</p>
+                </div>
+              </div>
+            </div>
           </div>
         </Container>
       </footer>
+      <div className="footer-main__mini-footer">
+        Copyright 2021 ©SCANNER. All Rights Reserved.
+      </div>
     </Fragment>
   );
 };
