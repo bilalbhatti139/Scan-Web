@@ -4,11 +4,12 @@ import React, { Fragment } from "react";
 import "./style.scss";
 
 // import components
-import Header from "../header";
-import ScanTheMode from "../scanthemode";
-import Benefits from "../benefits";
-import Features from "../features";
-import Contact from "../contact";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
+import ScanTheMode from "../../components/scanthemode";
+import Benefits from "../../components/benefits";
+import Features from "../../components/features";
+import Contact from "../../components/contact";
 
 // import data
 import { benefits } from "../../utils/constants";
@@ -23,6 +24,7 @@ const Home = () => {
       <Benefits benefits={benefits} />
       <Features />
       <Contact />
+      <Footer />
     </Fragment>
   );
 };

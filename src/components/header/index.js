@@ -34,7 +34,7 @@ const Header = () => {
               </Navbar>
             </div>
             <div className="login-btn">
-              <button>Login</button>
+              <a href="/login">Login</a>
             </div>
           </div>
         </Container>

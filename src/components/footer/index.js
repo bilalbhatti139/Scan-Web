@@ -25,16 +25,16 @@ const Footer = () => {
             <div className="footer-main__col-1">
               <img src={logo} alt="logo" className="img-fluid" />
               <div className="footer-main__social-icons">
-                <a href="#" className="footer-main__item">
+                <a href="/" className="footer-main__item">
                   <img src={facebook} alt="facebook-icon" />
                 </a>
-                <a href="#" className="footer-main__item">
+                <a href="/" className="footer-main__item">
                   <img src={youtube} alt="facebook-icon" />
                 </a>{" "}
-                <a href="#" className="footer-main__item">
+                <a href="/" className="footer-main__item">
                   <img src={twitter} alt="facebook-icon" />
                 </a>{" "}
-                <a href="#" className="footer-main__item">
+                <a href="/" className="footer-main__item">
                   <img src={instagram} alt="facebook-icon" />
                 </a>
               </div>
@@ -44,16 +44,16 @@ const Footer = () => {
                 <h1>Links</h1>
                 <ul>
                   <li>
-                    <a href="#">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="#">Benefits</a>
+                    <a href="/">Benefits</a>
                   </li>
                   <li>
-                    <a href="#">Features</a>
+                    <a href="/">Features</a>
                   </li>
                   <li>
-                    <a href="#">Contact Us</a>
+                    <a href="/">Contact Us</a>
                   </li>
                 </ul>
               </div>
