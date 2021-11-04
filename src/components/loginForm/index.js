@@ -35,6 +35,9 @@ const LoginForm = () => {
                 <img src={eye} alt="message-icon" className="img-fluid" />
               </div>
             </div>
+            <div className="login-main-wrapper__forgot-password">
+              <a href="/">Forgot Password?</a>
+            </div>
           </div>
           <div className="login-main-wrapper__login-btn">
             <a href="/">Login</a>
