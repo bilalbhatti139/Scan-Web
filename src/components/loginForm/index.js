@@ -4,6 +4,9 @@ import React from "react";
 import left from "../../assets/login-image-left.png";
 import message from "../../assets/message.png";
 import lock from "../../assets/lock.png";
+import eye from "../../assets/eye.png";
+import loginGoogle from "../../assets/login-google.png";
+import loginFacebook from "../../assets/login-facebook.png";
 
 // import style
 import "./style.scss";
@@ -28,7 +31,29 @@ const LoginForm = () => {
             <div className="login-main-wrapper_input-wrapper">
               <img src={lock} alt="message-icon" className="img-fluid" />
               <input type="text" placeholder="Password" />
+              <div className="login-main-wrapper__eye-icon">
+                <img src={eye} alt="message-icon" className="img-fluid" />
+              </div>
             </div>
+          </div>
+          <div className="login-main-wrapper__login-btn">
+            <a href="/">Login</a>
+          </div>
+          <div className="login-main-wrapper__cotnent-or">
+            <div className="login-main-wrapper_divider"></div>
+            <div className="login-main-wrapper__or">OR</div>
+            <div className="login-main-wrapper_divider"></div>
+          </div>
+          <p className="login-main-wrapper__get-started">
+            Get started with one of these services
+          </p>
+          <div className="login-main-wrapper__social-login">
+            <a href="/">
+              <img src={loginGoogle} alt="login-google" />
+            </a>
+            <a href="/">
+              <img src={loginFacebook} alt="login-facebook" />
+            </a>
           </div>
         </div>
       </div>

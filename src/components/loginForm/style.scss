@@ -38,12 +38,15 @@
 
   &__input-main-wrapper {
     margin-top: 100px;
+    margin-bottom: 200px;
   }
 
   &_input-wrapper {
     border-bottom: 1px solid #b5b5b5;
     padding-bottom: 20px;
     margin-bottom: 50px;
+    display: flex;
+    align-items: baseline;
 
     input {
       background: none;
@@ -60,6 +63,67 @@
 
     img {
       padding-right: 30px;
+    }
+  }
+
+  &__eye-icon {
+    text-align: right;
+    display: block;
+    width: 100%;
+
+    img {
+      padding: 0;
+    }
+  }
+
+  &__login-btn {
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      color: #000000;
+      font-size: 18px;
+      background: #ffffff;
+      padding: 15px 25px;
+      font-weight: 600;
+      border-radius: 10px;
+    }
+  }
+
+  &__cotnent-or {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  &_divider {
+    background-color: #595959;
+    height: 1px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__or {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  &__get-started {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  &__social-login {
+    text-align: center;
+
+    a {
+      padding: 0px 20px;
     }
   }
 }
