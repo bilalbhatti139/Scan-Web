@@ -32,3 +32,38 @@
     }
   }
 }
+
+.holder {
+  display: inline-block;
+  width: 132px;
+  height: 155px;
+  perspective: 700px;
+}
+.card,
+.front,
+.back {
+  position: absolute;
+  height: inherit;
+  width: inherit;
+  transition: all 0.7s;
+  transform-style: preserve-3d;
+  backface-visibility: unset;
+  border: none;
+}
+
+.flipH .back {
+  transform: rotateY(-180deg);
+}
+
+.flipH .card {
+  animation: flipH 2s 0s infinite alternate ease-in-out;
+}
+
+@keyframes flipH {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-180deg);
+  }
+}
