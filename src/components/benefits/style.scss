@@ -51,15 +51,216 @@
   border: none;
 }
 
-.flipH .back {
+// secure
+
+.secure .back {
   transform: rotateY(-180deg);
 }
 
-.flipH .card {
-  animation: flipH 2s 0s infinite alternate ease-in-out;
+.secure .card {
+  animation: secure 2s 0s infinite alternate ease-in-out;
 }
 
-@keyframes flipH {
+@keyframes secure {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-180deg);
+  }
+}
+
+// productive
+.productive .back {
+  transform: rotateY(180deg);
+}
+
+.productive .card {
+  animation: productive 2s 5s infinite alternate ease-in-out;
+}
+
+@keyframes productive {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-180deg);
+  }
+}
+
+// safe
+.safe .back {
+  transform: rotateY(180deg);
+}
+
+.safe .card {
+  animation: safe 2s 10s infinite alternate ease-in-out;
+}
+
+@keyframes safe {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-180deg);
+  }
+}
+
+// ease-of-use
+.ease-of-use .back {
+  transform: rotateY(180deg);
+}
+
+.ease-of-use .card {
+  animation: ease-of-use 2s 15s infinite alternate ease-in-out;
+}
+
+@keyframes ease-of-use {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-180deg);
+  }
+}
+
+// simple
+.simple .back {
+  transform: rotateY(180deg);
+}
+
+.simple .card {
+  animation: simple 2s 20s infinite alternate ease-in-out;
+}
+
+@keyframes simple {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-180deg);
+  }
+}
+
+// futuristic
+
+.futuristic .back {
+  transform: rotateY(180deg);
+}
+
+.futuristic .card {
+  animation: futuristic 2s 25s infinite alternate ease-in-out;
+}
+
+@keyframes futuristic {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-180deg);
+  }
+}
+
+// research
+.research .back {
+  transform: rotateY(180deg);
+}
+
+.research .card {
+  animation: research 2s 30s infinite alternate ease-in-out;
+}
+
+@keyframes research {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-180deg);
+  }
+}
+
+// privacy
+.privacy .back {
+  transform: rotateY(180deg);
+}
+
+.privacy .card {
+  animation: privacy 2s 35s infinite alternate ease-in-out;
+}
+
+@keyframes privacy {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-180deg);
+  }
+}
+
+// quality
+.quality .back {
+  transform: rotateY(180deg);
+}
+
+.quality .card {
+  animation: quality 2s 40s infinite alternate ease-in-out;
+}
+
+@keyframes quality {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-180deg);
+  }
+}
+
+// scalable
+.scalable .back {
+  transform: rotateY(180deg);
+}
+
+.scalable .card {
+  animation: scalable 2s 45s infinite alternate ease-in-out;
+}
+
+@keyframes scalable {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-180deg);
+  }
+}
+
+// fast
+.fast .back {
+  transform: rotateY(180deg);
+}
+
+.fast .card {
+  animation: fast 2s 50s infinite alternate ease-in-out;
+}
+
+@keyframes fast {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-180deg);
+  }
+}
+
+// efficient
+.efficient .back {
+  transform: rotateY(180deg);
+}
+
+.efficient .card {
+  animation: efficient 2s 55s infinite alternate ease-in-out;
+}
+
+@keyframes efficient {
   0% {
     transform: rotateY(0deg);
   }

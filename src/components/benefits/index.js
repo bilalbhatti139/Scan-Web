@@ -18,36 +18,24 @@ const Benefits = ({ benefits }) => {
           <div className="benefits-wrapper__title">
             <img src={text} alt="text-logo" className="img-fluid" />
           </div>
-          {/* <div className="benefits-container">
-            {benefits.map((item) => {
-              return (
-                <div className="benefits-box" key={uniqid}>
-                  <img
-                    src={process.env.PUBLIC_URL + item.image}
-                    alt="benefit-img"
-                    className="img-fluid"
-                  />
-                  <p>{item.title}</p>
-                </div>
-              );
-            })}
-          </div> */}
           <div className="benefits-container">
             {benefits.map((item) => {
               return (
                 <div className="benefits-box">
-                  <div className="holder flipH" key={uniqid}>
+                  <div className={`holder ${item.animation}`} key={uniqid}>
                     <div className="card">
                       <div className="front">
                         <img
                           src={process.env.PUBLIC_URL + item.image}
                           className="img-fluid"
+                          alt="front-img"
                         />
                       </div>
                       <div className="back">
                         <img
                           src={process.env.PUBLIC_URL + item.back}
                           className="img-fluid"
+                          alt="back-img"
                         />
                       </div>
                     </div>
