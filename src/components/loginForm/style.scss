@@ -7,6 +7,11 @@
   }
 
   &__left-content {
+    background: url("../../assets/login-image-left.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
     @media (max-width: 767px) {
       display: none;
     }
