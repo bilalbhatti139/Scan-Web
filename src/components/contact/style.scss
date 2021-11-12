@@ -5,23 +5,16 @@
   }
 
   &__container {
-    background: url("../../assets//contact-us-bg.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-
-    @media (max-width: 767px) {
-      background-size: cover;
-    }
+    background: linear-gradient(180deg, #141414 0%, #323131 100%);
+    position: relative;
+    padding: 50px 0px;
   }
 
   &__contact-row {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    align-items: center;
 
     @media (max-width: 767px) {
-      grid-template-columns: 1fr;
       padding: 50px 0px;
     }
   }
@@ -99,16 +92,13 @@
   }
 
   &__contact-form {
-    position: relative;
+    margin: auto;
   }
 
   &__woman {
-    position: relative;
-    top: -95px;
-    right: 75px;
-
-    @media (max-width: 767px) {
-      display: none;
+    img {
+      position: absolute;
+      bottom: -5px;
     }
   }
 }
